@@ -1,0 +1,23 @@
+Acme\DemoBundle\Entity\Product:
+    type: entity
+    fields:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+        name:
+            type: string
+            length: 255
+        picture:
+            type: string
+            length: 255
+            nullable: true
+    lifecycleCallbacks: {  }
+    oneToOne:
+        library:
+            targetEntity: Library
+            cascade:
+                - persist
+            joinColumn:
+              nullable: false

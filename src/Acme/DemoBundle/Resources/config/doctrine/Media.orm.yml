@@ -1,0 +1,11 @@
+Acme\DemoBundle\Entity\Media:
+    type: entity
+    fields:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+        path:
+            type: string
+            length: 255

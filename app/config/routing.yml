@@ -1,0 +1,5 @@
+AcmeDemoBundle_admin_acme_demo_bundle_Product:
+    resource: "@AcmeDemoBundle/Controller/Product/"
+    type:     admingenerator
+    prefix:   /admin/acme_demo_bundle/Product
+

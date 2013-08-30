@@ -1,0 +1,74 @@
+generator: admingenerator.generator.doctrine
+params:
+    model: Acme\DemoBundle\Entity\Product
+    namespace_prefix: Acme
+    concurrency_lock: ~
+    bundle_name: DemoBundle
+    pk_requirement: ~
+    fields:
+        pictureFile:
+            label: admin.product.label.picture
+            help:  admin.product.help.picture
+            sortable: false
+            dbType: string
+            formType: single_upload
+            addFormOptions:
+                deleteable:      picture
+                data_class: Symfony\Component\HttpFoundation\File\File
+        library:
+            label: admin.product.label.library
+            help:  admin.product.help.library
+            formType: sample_library
+    object_actions:
+        delete: ~
+    batch_actions:
+        delete: ~
+builders:
+    list:
+        params:
+            title: List for DemoBundle
+            display:
+                - name
+            actions:
+                new: ~
+            object_actions:
+                edit: ~
+                delete: ~
+    filters:
+        params:
+            display: ~
+    new:
+        params:
+            title: New object for DemoBundle
+            tabs:
+                "admin.product.tab.general":
+                    "admin.product.fieldset.informations": [name, pictureFile]
+                "admin.product.tab.library":
+                    NONE_library: [library]
+            actions:
+                save: ~
+                list: ~
+    edit:
+        params:
+            title: "You're editing the object \"%object%\"|{ %object%: Product.name }|"
+            tabs:
+                "admin.product.tab.general":
+                    "admin.product.fieldset.informations": [name, pictureFile]
+                "admin.product.tab.library":
+                    NONE_library: [library]
+            actions:
+                save: ~
+                list: ~
+    show:
+        params:
+            title: "You're viewing the object \"%object%\"|{ %object%: Product.name }|"
+            display: ~
+            actions:
+                list: ~
+                new: ~
+    actions:
+        params:
+            object_actions:
+                delete: ~
+            batch_actions:
+                delete: ~

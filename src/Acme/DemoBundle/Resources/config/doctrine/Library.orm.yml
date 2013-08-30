@@ -1,0 +1,13 @@
+Acme\DemoBundle\Entity\Library:
+    type: entity
+    fields:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    manyToMany:
+        medias:
+            targetEntity: Media
+            cascade:
+                - persist
