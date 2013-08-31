@@ -1,3 +1,8 @@
+AcmeDemoBundle_admin_acme_demo_bundle_Library:
+    resource: "@AcmeDemoBundle/Controller/Library/"
+    type:     admingenerator
+    prefix:   /admin/acme_demo_bundle/Library
+
 AcmeDemoBundle_admin_acme_demo_bundle_Product:
     resource: "@AcmeDemoBundle/Controller/Product/"
     type:     admingenerator

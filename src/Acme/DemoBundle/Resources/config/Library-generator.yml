@@ -1,0 +1,71 @@
+generator: admingenerator.generator.doctrine
+params:
+    model: Acme\DemoBundle\Entity\Library
+    namespace_prefix: Acme
+    concurrency_lock: ~
+    bundle_name: DemoBundle
+    pk_requirement: ~
+    fields:
+        medias:
+            dbType:               collection
+            formType:             collection_upload
+            addFormOptions:
+                nameable:         false
+                nameable_field:   ~
+                sortable:         false
+                type:             sample_media
+                previewMaxWidth:  80
+                previewMaxHeight: 60
+                acceptFileTypes:  /^image\/(gif|jpeg|png)$/
+                allow_add:        true
+                allow_delete:     true
+                error_bubbling:   false
+                options:
+                    data_class:   Acme\DemoBundle\Entity\Media
+    object_actions:
+        delete: ~
+    batch_actions:
+        delete: ~
+builders:
+    list:
+        params:
+            title: List for Libraries
+            display: 
+                - id
+            actions:
+                new: ~
+            object_actions:
+                edit: ~
+                delete: ~
+    filters:
+        params:
+            display: ~
+    new:
+        params:
+            title: New library
+            display:
+                - medias
+            actions:
+                save: ~
+                list: ~
+    edit:
+        params:
+            title: "You're editing the library"
+            display:
+                - medias
+            actions:
+                save: ~
+                list: ~
+    show:
+        params:
+            title: "You're viewing the library"
+            display: ~
+            actions:
+                list: ~
+                new: ~
+    actions:
+        params:
+            object_actions:
+                delete: ~
+            batch_actions:
+                delete: ~

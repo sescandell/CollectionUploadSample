@@ -26,7 +26,7 @@ params:
 builders:
     list:
         params:
-            title: List for DemoBundle
+            title: List for products
             display:
                 - name
             actions:
@@ -39,7 +39,7 @@ builders:
             display: ~
     new:
         params:
-            title: New object for DemoBundle
+            title: New product
             tabs:
                 "admin.product.tab.general":
                     "admin.product.fieldset.informations": [name, pictureFile]
@@ -50,7 +50,7 @@ builders:
                 list: ~
     edit:
         params:
-            title: "You're editing the object \"%object%\"|{ %object%: Product.name }|"
+            title: "You're editing the product \"%object%\"|{ %object%: Product.name }|"
             tabs:
                 "admin.product.tab.general":
                     "admin.product.fieldset.informations": [name, pictureFile]
@@ -61,7 +61,7 @@ builders:
                 list: ~
     show:
         params:
-            title: "You're viewing the object \"%object%\"|{ %object%: Product.name }|"
+            title: "You're viewing the product \"%object%\"|{ %object%: Product.name }|"
             display: ~
             actions:
                 list: ~
