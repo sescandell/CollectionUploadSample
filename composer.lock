@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "cdfcf7a559877c87ace460e54d797caa",
+    "hash": "9987eb68f7b67df86d3acb1c844475ce",
     "packages": [
         {
             "name": "afarkas/html5shiv",
@@ -41,17 +41,17 @@
         },
         {
             "name": "avocode/form-extensions-bundle",
-            "version": "dev-master",
+            "version": "dev-fix-collectionupload",
             "target-dir": "Avocode/FormExtensionsBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/avocode/FormExtensions.git",
-                "reference": "af9e1b084c12a95914b4d206ce73628b6eb0f555"
+                "reference": "562ee3e8828623de2a1ba7f6ee090233ab430b22"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/avocode/FormExtensions/zipball/af9e1b084c12a95914b4d206ce73628b6eb0f555",
-                "reference": "af9e1b084c12a95914b4d206ce73628b6eb0f555",
+                "url": "https://api.github.com/repos/avocode/FormExtensions/zipball/562ee3e8828623de2a1ba7f6ee090233ab430b22",
+                "reference": "562ee3e8828623de2a1ba7f6ee090233ab430b22",
                 "shasum": ""
             },
             "require": {
@@ -90,7 +90,7 @@
                     "homepage": "https://github.com/avocode/FormExtensions/graphs/contributors"
                 }
             ],
-            "time": "2013-08-31 14:09:29"
+            "time": "2013-10-10 22:15:45"
         },
         {
             "name": "cedriclombardot/admingenerator-generator-bundle",
@@ -1282,16 +1282,16 @@
         },
         {
             "name": "robloach/component-installer",
-            "version": "0.0.11",
+            "version": "0.0.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/RobLoach/component-installer.git",
-                "reference": "f8bbde8d027eed4d9bcc09ebc2d04d9e0df94b5b"
+                "reference": "1864f25db21fc173e02a359f646acd596c1b0460"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/RobLoach/component-installer/zipball/f8bbde8d027eed4d9bcc09ebc2d04d9e0df94b5b",
-                "reference": "f8bbde8d027eed4d9bcc09ebc2d04d9e0df94b5b",
+                "url": "https://api.github.com/repos/RobLoach/component-installer/zipball/1864f25db21fc173e02a359f646acd596c1b0460",
+                "reference": "1864f25db21fc173e02a359f646acd596c1b0460",
                 "shasum": ""
             },
             "require": {
@@ -1322,7 +1322,7 @@
                 }
             ],
             "description": "Allows installation of Components via Composer.",
-            "time": "2013-05-10 04:14:46"
+            "time": "2013-08-31 23:46:48"
         },
         {
             "name": "sensio/distribution-bundle",
@@ -1895,16 +1895,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v1.13.2",
+            "version": "v1.14.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fabpot/Twig.git",
-                "reference": "6d6a1009427d1f398c9d40904147bf9f723d5755"
+                "reference": "224fc55635d544a2ec8edb3592be18db5a093f59"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fabpot/Twig/zipball/6d6a1009427d1f398c9d40904147bf9f723d5755",
-                "reference": "6d6a1009427d1f398c9d40904147bf9f723d5755",
+                "url": "https://api.github.com/repos/fabpot/Twig/zipball/224fc55635d544a2ec8edb3592be18db5a093f59",
+                "reference": "224fc55635d544a2ec8edb3592be18db5a093f59",
                 "shasum": ""
             },
             "require": {
@@ -1913,7 +1913,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.13-dev"
+                    "dev-master": "1.14-dev"
                 }
             },
             "autoload": {
@@ -1940,7 +1940,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2013-08-03 15:35:31"
+            "time": "2013-10-03 06:41:20"
         },
         {
             "name": "twitter/bootstrap",
