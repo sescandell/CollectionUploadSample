@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "2e507e60d623ecc5ff7cef3ad8c20642",
+    "hash": "cdfcf7a559877c87ace460e54d797caa",
     "packages": [
         {
             "name": "afarkas/html5shiv",
@@ -41,17 +41,17 @@
         },
         {
             "name": "avocode/form-extensions-bundle",
-            "version": "dev-feature-addingPrefix",
+            "version": "dev-master",
             "target-dir": "Avocode/FormExtensionsBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/avocode/FormExtensions.git",
-                "reference": "0dd0f99639dd6ee4fb2c9b59dbb8b396cc84fc73"
+                "reference": "b65660be4945e21886cae689c13f589c914a90f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/avocode/FormExtensions/zipball/0dd0f99639dd6ee4fb2c9b59dbb8b396cc84fc73",
-                "reference": "0dd0f99639dd6ee4fb2c9b59dbb8b396cc84fc73",
+                "url": "https://api.github.com/repos/avocode/FormExtensions/zipball/b65660be4945e21886cae689c13f589c914a90f6",
+                "reference": "b65660be4945e21886cae689c13f589c914a90f6",
                 "shasum": ""
             },
             "require": {
@@ -90,7 +90,7 @@
                     "homepage": "https://github.com/avocode/FormExtensions/graphs/contributors"
                 }
             ],
-            "time": "2013-11-14 21:36:37"
+            "time": "2013-11-15 17:07:56"
         },
         {
             "name": "cedriclombardot/admingenerator-generator-bundle",
@@ -99,12 +99,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony2admingenerator/AdmingeneratorGeneratorBundle.git",
-                "reference": "6dd565dacb6e668b9bcfa216a2acca356949375c"
+                "reference": "9e4a0a07438c72044a8daac640721e617e746ede"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony2admingenerator/AdmingeneratorGeneratorBundle/zipball/6dd565dacb6e668b9bcfa216a2acca356949375c",
-                "reference": "6dd565dacb6e668b9bcfa216a2acca356949375c",
+                "url": "https://api.github.com/repos/symfony2admingenerator/AdmingeneratorGeneratorBundle/zipball/9e4a0a07438c72044a8daac640721e617e746ede",
+                "reference": "9e4a0a07438c72044a8daac640721e617e746ede",
                 "shasum": ""
             },
             "require": {
@@ -164,7 +164,7 @@
                 "generator",
                 "yaml"
             ],
-            "time": "2013-11-06 13:35:31"
+            "time": "2013-11-15 16:31:40"
         },
         {
             "name": "cedriclombardot/twig-generator",
