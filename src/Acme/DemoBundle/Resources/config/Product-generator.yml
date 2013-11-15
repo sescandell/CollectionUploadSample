@@ -11,7 +11,7 @@ params:
             help:  admin.product.help.picture
             sortable: false
             dbType: string
-            formType: single_upload
+            formType: afe_single_upload
             addFormOptions:
                 deleteable:      picture
                 data_class: Symfony\Component\HttpFoundation\File\File

@@ -79,7 +79,7 @@ vich_uploader:
             uri_prefix: /upload/images
             upload_destination: %kernel.root_dir%/../web/upload/images
             namer: vich_uploader.namer_uniqid
-            inject_on_load: false
+            inject_on_load: true
 
 avocode_form_extensions:
     upload_manager: vich_uploader

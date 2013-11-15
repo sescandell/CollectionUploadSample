@@ -4,6 +4,7 @@ namespace Acme\DemoBundle\Entity;
 
 use Avocode\FormExtensionsBundle\Form\Model\UploadCollectionFileInterface;
 use Vich\UploaderBundle\Mapping\Annotation as Vich;
+use Symfony\Component\HttpFoundation\File\File;
 
 /**
  * Media
@@ -91,7 +92,11 @@ class Media implements UploadCollectionFileInterface
      */
     public function getSize()
     {
-        return $this->file->getFileInfo()->getSize();
+        if ($this->file) {
+            return $this->file->getFileInfo()->getSize();
+        }
+
+        return 0;
     }
 
     /**
@@ -108,6 +113,10 @@ class Media implements UploadCollectionFileInterface
      */
     public function getPreview()
     {
-        return (preg_match('/image\/.*/i', $this->file->getMimeType()));
+        if ($this->file) {
+            return preg_match('/image\/.*/i', $this->file->getMimeType());
+        }
+
+        return false;
     }
 }

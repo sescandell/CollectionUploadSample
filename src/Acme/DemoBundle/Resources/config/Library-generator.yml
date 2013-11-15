@@ -8,7 +8,7 @@ params:
     fields:
         medias:
             dbType:               collection
-            formType:             collection_upload
+            formType:             afe_collection_upload
             addFormOptions:
                 nameable:         false
                 nameable_field:   ~

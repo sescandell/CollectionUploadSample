@@ -15,7 +15,7 @@ class LibraryType extends AbstractType
     {
         $builder->add(
             'medias',
-            'collection_upload',
+            'afe_collection_upload',
             array(
                 'label' => 'medias.label.name',
                 'sortable' => false,
