@@ -1,3 +1,8 @@
+avocode_upload_route:
+    pattern: /admin/upload/media
+    requirements:
+        _method: POST
+
 AcmeDemoBundle_admin_acme_demo_bundle_Library:
     resource: "@AcmeDemoBundle/Controller/Library/"
     type:     admingenerator

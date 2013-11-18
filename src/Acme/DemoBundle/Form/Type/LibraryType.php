@@ -23,6 +23,7 @@ class LibraryType extends AbstractType
                 'allow_add' => true,
                 'allow_delete' => true,
                 'type' => 'sample_media',
+                'uploadRouteName' => 'avocode_upload_route',
                 'options' => array(
                     'data_class' => '\Acme\DemoBundle\Entity\Media'
                 )

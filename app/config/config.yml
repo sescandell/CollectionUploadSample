@@ -83,3 +83,6 @@ vich_uploader:
 
 avocode_form_extensions:
     upload_manager: vich_uploader
+    collection_upload:
+        async_listener_enabled: true
+        async_route_name: avocode_upload_route
