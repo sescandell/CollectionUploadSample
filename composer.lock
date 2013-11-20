@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "cdfcf7a559877c87ace460e54d797caa",
+    "hash": "098f651c95920bbcf82a0d2cd869033a",
     "packages": [
         {
             "name": "afarkas/html5shiv",
@@ -41,17 +41,17 @@
         },
         {
             "name": "avocode/form-extensions-bundle",
-            "version": "dev-master",
+            "version": "dev-feature-collectionUploadAsync",
             "target-dir": "Avocode/FormExtensionsBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/avocode/FormExtensions.git",
-                "reference": "b65660be4945e21886cae689c13f589c914a90f6"
+                "reference": "c31d02b915c8373b600081e18bdb244e3e2cd033"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/avocode/FormExtensions/zipball/b65660be4945e21886cae689c13f589c914a90f6",
-                "reference": "b65660be4945e21886cae689c13f589c914a90f6",
+                "url": "https://api.github.com/repos/avocode/FormExtensions/zipball/c31d02b915c8373b600081e18bdb244e3e2cd033",
+                "reference": "c31d02b915c8373b600081e18bdb244e3e2cd033",
                 "shasum": ""
             },
             "require": {
@@ -90,7 +90,7 @@
                     "homepage": "https://github.com/avocode/FormExtensions/graphs/contributors"
                 }
             ],
-            "time": "2013-11-15 17:07:56"
+            "time": "2013-11-20 21:21:29"
         },
         {
             "name": "cedriclombardot/admingenerator-generator-bundle",
