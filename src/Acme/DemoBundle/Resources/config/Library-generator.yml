@@ -13,14 +13,14 @@ params:
                 nameable:         false
                 nameable_field:   ~
                 sortable:         false
-                type:             sample_media
+                type:             \Acme\DemoBundle\Form\Type\MediaType
                 previewMaxWidth:  80
                 previewMaxHeight: 60
                 acceptFileTypes:  /^image\/(gif|jpeg|png)$/
                 allow_add:        true
                 allow_delete:     true
                 error_bubbling:   false
-                uploadRouteName:  avocode_upload_route
+                # uploadRouteName:  avocode_upload_route
                 options:
                     data_class:   Acme\DemoBundle\Entity\Media
     object_actions:

@@ -24,7 +24,7 @@
         "vich/uploader-bundle": "v0.8.1",
         "knplabs/knp-gaufrette-bundle" : "v0.1.4",
         "afarkas/html5shiv": "dev-master",
-        "avocode/form-extensions-bundle": "dev-feature-collectionUploadAsync"
+        "avocode/form-extensions-bundle": "dev-master"
     },
     "scripts": {
         "post-install-cmd": [

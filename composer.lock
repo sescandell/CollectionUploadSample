@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "098f651c95920bbcf82a0d2cd869033a",
+    "hash": "cdfcf7a559877c87ace460e54d797caa",
     "packages": [
         {
             "name": "afarkas/html5shiv",
@@ -11,12 +11,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/aFarkas/html5shiv.git",
-                "reference": "31a7a89d9f164ab55d317ce1e15c84dc50c51977"
+                "reference": "cec73ff6d8d8f25423439efa8940fd86da46e146"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aFarkas/html5shiv/zipball/31a7a89d9f164ab55d317ce1e15c84dc50c51977",
-                "reference": "31a7a89d9f164ab55d317ce1e15c84dc50c51977",
+                "url": "https://api.github.com/repos/aFarkas/html5shiv/zipball/cec73ff6d8d8f25423439efa8940fd86da46e146",
+                "reference": "cec73ff6d8d8f25423439efa8940fd86da46e146",
                 "shasum": ""
             },
             "require": {
@@ -37,21 +37,21 @@
             ],
             "description": "Defacto way to enable use of HTML5 sectioning elements in legacy Internet Explorer.",
             "homepage": "http://paulirish.com/2011/the-history-of-the-html5-shiv/",
-            "time": "2013-10-31 12:45:19"
+            "time": "2013-11-26 19:17:01"
         },
         {
             "name": "avocode/form-extensions-bundle",
-            "version": "dev-feature-collectionUploadAsync",
+            "version": "dev-master",
             "target-dir": "Avocode/FormExtensionsBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/avocode/FormExtensions.git",
-                "reference": "c31d02b915c8373b600081e18bdb244e3e2cd033"
+                "reference": "ebd6d2cb2e51ee8bcd754128fa409d40dbe3902f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/avocode/FormExtensions/zipball/c31d02b915c8373b600081e18bdb244e3e2cd033",
-                "reference": "c31d02b915c8373b600081e18bdb244e3e2cd033",
+                "url": "https://api.github.com/repos/avocode/FormExtensions/zipball/ebd6d2cb2e51ee8bcd754128fa409d40dbe3902f",
+                "reference": "ebd6d2cb2e51ee8bcd754128fa409d40dbe3902f",
                 "shasum": ""
             },
             "require": {
@@ -90,7 +90,7 @@
                     "homepage": "https://github.com/avocode/FormExtensions/graphs/contributors"
                 }
             ],
-            "time": "2013-11-20 21:21:29"
+            "time": "2013-12-02 23:28:30"
         },
         {
             "name": "cedriclombardot/admingenerator-generator-bundle",
@@ -99,12 +99,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony2admingenerator/AdmingeneratorGeneratorBundle.git",
-                "reference": "9e4a0a07438c72044a8daac640721e617e746ede"
+                "reference": "d00da50cdd6efecab0473c9655b801d2dc0177cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony2admingenerator/AdmingeneratorGeneratorBundle/zipball/9e4a0a07438c72044a8daac640721e617e746ede",
-                "reference": "9e4a0a07438c72044a8daac640721e617e746ede",
+                "url": "https://api.github.com/repos/symfony2admingenerator/AdmingeneratorGeneratorBundle/zipball/d00da50cdd6efecab0473c9655b801d2dc0177cf",
+                "reference": "d00da50cdd6efecab0473c9655b801d2dc0177cf",
                 "shasum": ""
             },
             "require": {
@@ -164,7 +164,7 @@
                 "generator",
                 "yaml"
             ],
-            "time": "2013-11-15 16:31:40"
+            "time": "2013-11-30 06:50:30"
         },
         {
             "name": "cedriclombardot/twig-generator",
@@ -1092,16 +1092,16 @@
         },
         {
             "name": "jdorn/sql-formatter",
-            "version": "v1.2.9",
+            "version": "v1.2.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jdorn/sql-formatter.git",
-                "reference": "bd1f09133f6dbbe0713856910e58ea9480c2be58"
+                "reference": "8859d664737492d313c34796731b35eca851b362"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jdorn/sql-formatter/zipball/bd1f09133f6dbbe0713856910e58ea9480c2be58",
-                "reference": "bd1f09133f6dbbe0713856910e58ea9480c2be58",
+                "url": "https://api.github.com/repos/jdorn/sql-formatter/zipball/8859d664737492d313c34796731b35eca851b362",
+                "reference": "8859d664737492d313c34796731b35eca851b362",
                 "shasum": ""
             },
             "require": {
@@ -1138,7 +1138,7 @@
                 "highlight",
                 "sql"
             ],
-            "time": "2013-04-26 18:42:52"
+            "time": "2013-11-27 22:51:13"
         },
         {
             "name": "knplabs/gaufrette",
