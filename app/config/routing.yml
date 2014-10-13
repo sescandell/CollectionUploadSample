@@ -1,3 +1,6 @@
+_acme_demo:
+    resource: "@AcmeDemoBundle/Resources/config/routing.yml"
+
 avocode_upload_route:
     pattern: /admin/upload/media
     requirements:
