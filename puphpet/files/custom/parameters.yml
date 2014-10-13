@@ -1,0 +1,14 @@
+# This file is auto-generated during the composer install
+parameters:
+    database_driver: pdo_mysql
+    database_host: 127.0.0.1
+    database_port: null
+    database_name: colup
+    database_user: ucolup
+    database_password: pcolup
+    mailer_transport: smtp
+    mailer_host: mail.gandi.net
+    mailer_user: no-reply@planningauto.com
+    mailer_password: 7DW8br9b
+    locale: fr
+    secret: 8a10rihyzRC6wuRq15hr
